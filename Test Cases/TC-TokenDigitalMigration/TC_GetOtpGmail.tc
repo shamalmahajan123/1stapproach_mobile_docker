@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_GetOtpGmail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e0d79012-8c77-4157-95e4-53807e04c9ab</testCaseGuid>
+</TestCaseEntity>

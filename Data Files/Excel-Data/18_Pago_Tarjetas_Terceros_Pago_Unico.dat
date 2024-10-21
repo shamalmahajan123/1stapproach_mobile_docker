@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>18_Pago_Tarjetas_Terceros_Pago_Unico</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>9fb61ff1-8580-4035-8852-b9e73721d33e</dataFileGUID>
+   <dataSourceUrl>Data Files/Excel-Data/18_Pago_Tarjetas_Terceros_Pago_Unico.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>true</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>PagoTarjetaTerceroPagoUnico</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

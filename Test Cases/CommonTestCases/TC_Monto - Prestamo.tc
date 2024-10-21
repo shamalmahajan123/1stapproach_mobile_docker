@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Monto - Prestamo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6a910324-d07b-44a5-b8f7-6b4cbb01352e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8f8cc4bb-a1dd-456f-ae15-747c8b8598d2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c6440094-4e0f-4100-b7fc-587a6b776ba5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7a08cdd8-cc04-40cf-af07-e5de071309cb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8f8cc4bb-a1dd-456f-ae15-747c8b8598d2</id>
+      <masked>false</masked>
+      <name>Monto</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c6440094-4e0f-4100-b7fc-587a6b776ba5</id>
+      <masked>false</masked>
+      <name>Decimal</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7a08cdd8-cc04-40cf-af07-e5de071309cb</id>
+      <masked>false</masked>
+      <name>MontoType</name>
+   </variable>
+</TestCaseEntity>

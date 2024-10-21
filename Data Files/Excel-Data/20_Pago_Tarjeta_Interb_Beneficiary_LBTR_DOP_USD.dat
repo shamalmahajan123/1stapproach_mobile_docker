@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>20_Pago_Tarjeta_Interb_Beneficiary_LBTR_DOP_USD</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>0764ef7f-f161-408c-aa82-6f36dd83a474</dataFileGUID>
+   <dataSourceUrl>Data Files/Excel-Data/20_Pago_Tarjeta_Interb_Beneficiary_LBTR_DOP_USD.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>true</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>TarjetaInterbanc_LBTR</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

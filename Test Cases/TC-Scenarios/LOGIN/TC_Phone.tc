@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Phone Scenarios</description>
+   <name>TC_Phone</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1fb7de67-20e4-4084-b863-4c280c03e1b3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a504ebd3-3796-409d-ab44-7c1ca330e6f3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a146f311-b66d-4fb2-9fc7-e24fb37189db</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7e55717e-bcc0-4320-843f-36be8c64fac8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a504ebd3-3796-409d-ab44-7c1ca330e6f3</id>
+      <masked>false</masked>
+      <name>ID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a146f311-b66d-4fb2-9fc7-e24fb37189db</id>
+      <masked>false</masked>
+      <name>Description</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7e55717e-bcc0-4320-843f-36be8c64fac8</id>
+      <masked>false</masked>
+      <name>Phone</name>
+   </variable>
+</TestCaseEntity>

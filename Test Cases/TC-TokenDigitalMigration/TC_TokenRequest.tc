@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_TokenRequest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1f48734-4312-4220-981b-dc254f322d4a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>88222cba-0fb0-4a9b-b548-892452408146</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>88222cba-0fb0-4a9b-b548-892452408146</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Application Launch</description>
+   <name>TC_AppLaunch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f66f50c7-dd02-4aa0-a088-95732c37cdff</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>c3fa6d74-d600-4503-8b96-649b73e876bf</id>
+      <iterationEntity>
+         <iterationType>SPECIFIC</iterationType>
+         <value>1</value>
+      </iterationEntity>
+      <testDataId>Data Files/Excel-Data/AppLaunch</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>c3fa6d74-d600-4503-8b96-649b73e876bf</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>ID</value>
+      <variableId>ce480db2-b652-4252-8388-5441f2d70aa4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>c3fa6d74-d600-4503-8b96-649b73e876bf</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Description</value>
+      <variableId>9d360eaa-1011-4b3e-b74d-a94fcd557284</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>c3fa6d74-d600-4503-8b96-649b73e876bf</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>AppPath</value>
+      <variableId>4dcb99ad-5003-4126-a520-0d3f4dce3d6b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ce480db2-b652-4252-8388-5441f2d70aa4</id>
+      <masked>false</masked>
+      <name>ID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9d360eaa-1011-4b3e-b74d-a94fcd557284</id>
+      <masked>false</masked>
+      <name>Description</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4dcb99ad-5003-4126-a520-0d3f4dce3d6b</id>
+      <masked>false</masked>
+      <name>AppPath</name>
+   </variable>
+</TestCaseEntity>

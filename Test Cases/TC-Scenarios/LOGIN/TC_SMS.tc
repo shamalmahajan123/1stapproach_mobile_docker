@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SMS Scenarios</description>
+   <name>TC_SMS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a3866a26-472b-407d-ba51-240d13f76d9a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>554aaef3-6e91-4e15-93f5-027881aa76bf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>90e8f03d-724b-4658-b5e1-b47fcd5cc6bf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ad00ee5e-d817-4fed-b25a-825bc8b16dbd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>554aaef3-6e91-4e15-93f5-027881aa76bf</id>
+      <masked>false</masked>
+      <name>ID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>90e8f03d-724b-4658-b5e1-b47fcd5cc6bf</id>
+      <masked>false</masked>
+      <name>Description</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ad00ee5e-d817-4fed-b25a-825bc8b16dbd</id>
+      <masked>false</masked>
+      <name>SMS</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Pago_Tarjetas_Terceros_Beneficiario</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>05520898-0d85-42f1-911e-9c9fe1c897c5</dataFileGUID>
+   <dataSourceUrl>Data Files/Excel-Data/Pago_Tarjetas_Terceros_Beneficiario.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>true</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>PagoTarjetaTerceroBeneficiario</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

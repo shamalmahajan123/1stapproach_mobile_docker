@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_QuickEmail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d5d6e8a8-c8d8-4f84-9728-07b06f98270f</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>c3bacde8-748a-437b-9ba4-3e1a7ada431e</id>
+      <iterationEntity>
+         <iterationType>SPECIFIC</iterationType>
+         <value>1</value>
+      </iterationEntity>
+      <testDataId>Data Files/Excel-Data/Email</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>c3bacde8-748a-437b-9ba4-3e1a7ada431e</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>ID</value>
+      <variableId>ccbc7b90-1737-4629-ad62-e47c4c016e36</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>c3bacde8-748a-437b-9ba4-3e1a7ada431e</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Description</value>
+      <variableId>4643f05c-1884-406d-8f5d-928c0d5b750a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>c3bacde8-748a-437b-9ba4-3e1a7ada431e</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Email</value>
+      <variableId>70d95c9f-dec5-4e32-a260-79b04a54ec88</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ccbc7b90-1737-4629-ad62-e47c4c016e36</id>
+      <masked>false</masked>
+      <name>ID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4643f05c-1884-406d-8f5d-928c0d5b750a</id>
+      <masked>false</masked>
+      <name>Description</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>70d95c9f-dec5-4e32-a260-79b04a54ec88</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+</TestCaseEntity>

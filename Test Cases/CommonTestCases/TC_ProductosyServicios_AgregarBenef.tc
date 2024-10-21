@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_ProductosYServicios_AgregarBenef</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af27d6e4-4c98-4ef9-a941-a7902c7154cd</testCaseGuid>
+</TestCaseEntity>

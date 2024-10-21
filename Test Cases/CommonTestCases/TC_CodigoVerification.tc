@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CodigoVerification</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>11dafb77-d089-4dd1-8022-a55bdd293c97</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4e5300e2-8aa6-4cb8-8572-24e766602916</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a3783ac6-fe46-4e2e-bee9-c36cdf47088c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>887c40f3-1924-4689-9026-e2f74241e54f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4e5300e2-8aa6-4cb8-8572-24e766602916</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a3783ac6-fe46-4e2e-bee9-c36cdf47088c</id>
+      <masked>false</masked>
+      <name>Description</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>887c40f3-1924-4689-9026-e2f74241e54f</id>
+      <masked>false</masked>
+      <name>Monto</name>
+   </variable>
+</TestCaseEntity>

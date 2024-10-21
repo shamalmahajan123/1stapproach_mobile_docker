@@ -1,0 +1,27 @@
+services:
+  android-emulator:
+    build: 
+      context: .  # Keep the context as the current directory
+      dockerfile: Dockerfile_for_emulator  # Specify the correct Dockerfile name
+    container_name: android_emulator
+    ports:
+      - "5900:5900"  # VNC port
+      - "4723:4723"  # Appium port
+      # - "5555:5555"  # ADB port
+      -  "5037:5037"
+    expose:
+     - "5037:5037"
+
+    environment:
+      - VNC_PASSWORD=password
+    privileged: true  # Necessary to run the Android emulator
+    volumes:
+      - /dev/kvm:/dev/kvm  # Required for Android emulator
+    tty: true
+    command: /bin/bash -c "./start_vnc.sh & ./start_emu_headed.sh && wait"
+    networks:
+      - shared-network  # Use a shared network for communication
+
+networks:
+  shared-network:
+    external: true   # The common network for both containers

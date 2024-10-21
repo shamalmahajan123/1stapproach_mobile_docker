@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "B89448AFDE16DFE26DE5EA7F0CD26AEC",
+  "keywordClasses": [
+    {
+      "name": "helper.paymenthelper",
+      "keywordMethods": [
+        {
+          "name": "PaymentResponses",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

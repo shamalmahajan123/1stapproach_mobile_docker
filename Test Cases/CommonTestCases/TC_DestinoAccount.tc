@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_DestinoAccount</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0344ed6c-6fd8-4036-9a25-31490bb98c38</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cb429c81-a36b-4628-9c9e-dded88ec47c4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cb429c81-a36b-4628-9c9e-dded88ec47c4</id>
+      <masked>false</masked>
+      <name>Result</name>
+   </variable>
+</TestCaseEntity>

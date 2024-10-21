@@ -1,0 +1,70 @@
+# Dockerfile_For_Katalon
+FROM eclipse-temurin:8-jdk
+ 
+# Set the environment variable DEBIAN_FRONTEND to noninteractive
+ENV DEBIAN_FRONTEND=noninteractive
+ 
+# Set the working directory
+WORKDIR /app
+ 
+# Set the default shell for RUN commands
+SHELL ["/bin/bash", "-c"]
+ 
+# Install required packages for Katalon Studio and Android SDK
+RUN apt-get update && apt-get install -y \
+    curl \
+    unzip \
+    dos2unix \
+    wget \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+ 
+# Build argument for Katalon version
+ARG KATALON_VERSION="8.6.8"
+ 
+# Download Katalon Studio Engine and extract
+RUN wget https://download.katalon.com/${KATALON_VERSION}/Katalon_Studio_Engine_Linux_64-${KATALON_VERSION}.tar.gz && \
+    tar -xvzf Katalon_Studio_Engine_Linux_64-${KATALON_VERSION}.tar.gz && \
+    rm -rf Katalon_Studio_Engine_Linux_64-${KATALON_VERSION}.tar.gz
+ 
+# Set the Katalon installation directory
+ENV KATALON_HOME=/app/Katalon_Studio_Engine_Linux_64-${KATALON_VERSION}
+ 
+# Install Android SDK and Platform Tools
+RUN mkdir -p /opt/android && \
+    cd /opt/android && \
+    wget https://dl.google.com/android/repository/commandlinetools-linux-7302050_latest.zip && \
+    unzip commandlinetools-linux-7302050_latest.zip && \
+    rm commandlinetools-linux-7302050_latest.zip && \
+    yes | /opt/android/cmdline-tools/bin/sdkmanager --sdk_root=/opt/android --install "platform-tools" "build-tools;30.0.3" "platforms;android-30"
+ 
+# Set environment variables for the Android SDK
+ENV ANDROID_HOME=/opt/android
+ENV PATH=$PATH:$ANDROID_HOME/platform-tools:$ANDROID_HOME/cmdline-tools/latest/bin
+ 
+# Copy Katalon startup script and ensure it's executable
+# COPY katalon_entry.sh /app/katalon_entry.sh
+COPY . /app
+ 
+RUN dos2unix ./start_katalon.sh && \
+    chmod a+x start_katalon.sh
+ 
+# Set the entry point for Katalon
+CMD ["bash", "-c", "sleep 10 && ./start_katalon.sh"]
+ 
+ 
+ 
+ 
+ 
+# docker build -t katalon_tests:1.0.0 -f Dockerfile_For_Katalon .
+# docker images
+# docker run -it -d -p 5901:5900 --privileged -e VNC_PASSWORD=123 --name katalon-cases katalon_tests:1.0.0
+# docker ps
+ 
+ 
+#NEW TERMINAL# #_1_#
+# docker exec -it katalon-cases bash
+# ls
+# ./start_katalon_tests.sh
+ 
+ 

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Pagos_Prestamos_interb_Beneficiario_LBTR</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>ec1473f7-addb-4f7d-aaab-329d3a8081f3</dataFileGUID>
+   <dataSourceUrl>Data Files/Excel-Data/Pagos Prestamos Interbanc Benef Pago LBTR.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>true</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Pagos Prestamos InterB Pago LBT</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

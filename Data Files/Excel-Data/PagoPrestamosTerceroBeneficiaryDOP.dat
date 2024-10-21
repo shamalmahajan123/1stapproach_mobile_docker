@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>PagoPrestamosTerceroBeneficiaryDOP</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>2b40a99f-db35-41ca-a23c-1bba6c3bd11d</dataFileGUID>
+   <dataSourceUrl>Data Files/Excel-Data/PagoPrestamosTerceroBeneficiaryDOP.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>true</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>PrestamoTercerosBeneficiary</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_PaymentMethod</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ffe7a2fe-25e6-4dd3-805b-b5a483f429bd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4e9a8fea-4f07-42b8-9033-d2a6fbda96a0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4e9a8fea-4f07-42b8-9033-d2a6fbda96a0</id>
+      <masked>false</masked>
+      <name>Method</name>
+   </variable>
+</TestCaseEntity>

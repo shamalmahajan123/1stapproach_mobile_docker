@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "A4573DD9093A0BDA31AB66E003478AB4",
+  "keywordClasses": [
+    {
+      "name": "helper.codigo",
+      "keywordMethods": [
+        {
+          "name": "TarjetaCodigo_Cedula",
+          "parameters": [
+            {
+              "name": "Position",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

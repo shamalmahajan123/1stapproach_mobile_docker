@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Pago_Prestamos_Interb_Pago_Unico_LBTR</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>272d7821-8189-4cf3-bb3d-853cc1ab53db</dataFileGUID>
+   <dataSourceUrl>Data Files/Excel-Data/Pago_Prestamos_Interb_Pago_Unico_LBTR.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>true</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Prestamos_Interb_PagoUnico_LBTR</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

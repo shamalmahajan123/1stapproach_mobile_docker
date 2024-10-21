@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>11_Pago_Prestamos_Tercero_Pago_Unico</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>ba06da6f-469b-4169-90f2-f5826aa9afc6</dataFileGUID>
+   <dataSourceUrl>Data Files/Excel-Data/11_Pago_Prestamos_Tercero_Pago_Unico.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>true</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Pago_Prestamo_Tercero_PagoUnico</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

@@ -1,0 +1,23 @@
+services:
+  katalon:
+    build:
+      context: .  # Use the current directory to build the image
+      dockerfile: Dockerfile_for_katalon  # Specify the correct Dockerfile
+    container_name: katalon_container
+
+    environment:
+    - ADB_HOST=android_emulator  # Use the service name instead of a fixed IP
+    volumes:
+      - emulator_data:/opt/android
+      - adb_data:/opt/android/platform-tools
+    tty: true  # Keep the container running interactively
+    command: /bin/bash -c "./start_katalon.sh"  # Run the Katalon script
+    networks:
+      - shared-network  # Use the same shared network
+
+networks:
+  shared-network:
+    external: true  # Use the shared network created by the emulator
+volumes:
+  emulator_data:
+  adb_data:

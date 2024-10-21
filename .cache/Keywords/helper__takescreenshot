@@ -1,0 +1,36 @@
+{
+  "keywordFileContentHash": "E732CA04BE9C1624F58843FE6922CE5D",
+  "keywordClasses": [
+    {
+      "name": "helper.takescreenshot",
+      "keywordMethods": [
+        {
+          "name": "Screenshot5",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "ReduceImageResolution",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "Screenshot3",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "Screenshot1",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "Screenshot2",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

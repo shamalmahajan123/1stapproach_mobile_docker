@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Pago Tarjeta Interbanc Pago Unico LBTR_DOP_US</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>1e50d4a7-85ee-4960-9e71-69bd127b3889</dataFileGUID>
+   <dataSourceUrl>Data Files/Excel-Data/Pago Tarjeta Interbanc Pago Unico LBTR_DOP_USD.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>true</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Tarjeta_PagoUnicoLBTR</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
